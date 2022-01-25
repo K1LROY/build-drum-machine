@@ -1,6 +1,6 @@
 {
-  "name": "build-drum-machine",
-  "version": "0.1.0",
+  "homepage": "https://k1lroy.github.io/build-drum-machine/",
+  "version": "build-drum-machine",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.0",
@@ -21,6 +21,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
