@@ -1,0 +1,71 @@
+#drum-machine {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 660px;
+  margin: 30rem auto 0 auto;
+  background-color: #6a7b8b;
+  border-radius: 5px;
+  box-shadow: black 3px 3px 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.recButton {
+  background-color: grey;
+  color: #ffff;
+  width: 60px;
+  height: 20px;
+  margin-top: 10px;
+  box-shadow: black 3px 3px 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  appearance: none;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  #drum-machine {
+    transform: scale(0.8);
+  }
+}
+
+.Drum-pad {
+  width: 400px;
+  height: 300px;
+  display: flex;
+}
+
+.actionSwitch {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  top: 5px;
+  right: 10px;
+  align-items: center;
+}
+
+.inner-logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#display {
+  width: 200px;
+  background-color: #fff;
+  color: black;
+  margin: 5px auto 5px auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
